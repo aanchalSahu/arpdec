@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-bottom: 2%;
 }
 
 .App-logo {
@@ -35,4 +36,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  /* background-color: #000207;  */
+  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+  /* color: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+                background-color: #0b1826;
+                background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+                font-family: 'Courgette', cursive;
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Special Elite', cursive; */
+/* font-family: 'Tangerine', cursive; */
+}
+
+h1 {
+   font-size: 6rem;
+  /* background-image: radial-gradient(ellipse farthest-corner at right bottom, #000000 0%, #cb952b 8%, #ffa500 30%, #ffca52 40%, #ffe84100 80%),  radial-gradient(ellipse farthest-corner at left top, #000000 0%, #000000 8%, #ffbb00 25%, #000000 62.5%, #000000 100%);  */
+     /* color:transparent; */
+     color:#2c0101;
+    -webkit-background-clip:text; 
+    text-shadow: 2px 8px 5px #423434c4;
+   
+}
+
+.cursive-font{
+  font-family: 'Tangerine', cursive !important;
+}
+
+.m2p{
+  margin: 2%  0!important;
+}
+.slider-css-1 {
+  width: 70% !important;
+}
+.slider-css-1-box {
+border-radius: 13px;
+    /* border: 1px solid #000000; */
+  position: relative;
+  height: 25rem;
+
+}
+.awssld__wrapper{
+  border-radius: 13px;
+    /* border: 1px solid #000000; */
+}
+.width100 {
+  width:100% !important
+}
+.photo-grid-item{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .slider-css-1-box {
+      height: 15rem;
+    }
+    .m2p{
+      margin:1%  0!important;
+    }
+    h1 {
+      font-size: 4rem;
+   }
+}
+#navbar{
+  background-color: #ffffff33  
 }
